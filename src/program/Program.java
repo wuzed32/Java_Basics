@@ -13,6 +13,7 @@ public class Program {
 		DynStack stack = new DynStack(5);
 		stack.clear();
 		
+		print("-----------------------------------------------");
 		print("end");
 	}
 	
