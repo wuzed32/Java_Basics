@@ -16,7 +16,6 @@ public class DynStack implements IStack {
 	
 	@Override
 	public void push(int item) {
-		// TODO Auto-generated method stub
 		if (tos == stack.length - 1) {
 			int[] temp = new int[stack.length * 2];
 			for (int i = 0; i < stack.length; i++)
