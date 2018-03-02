@@ -1,17 +1,18 @@
 package program;
 
-import java.util.Scanner;
-import data.*;
-import box.*;
-import client.*;
+//import java.util.Scanner;
+//import threads.*;
+//import data.*;
+//import box.*;
+//import client.*;
+//import recieve_response_test.*;
 
 public class Program {
 	
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		print("begin");
+
 		
-		DynStack stack = new DynStack(5);
-		stack.clear();
 		
 		print("end");
 	}
