@@ -18,6 +18,10 @@ public class Program {
 		print("end");
 	}
 	
+	public static void print() {
+		System.out.println();
+	}
+	
 	public static void print(Object o) {
 		System.out.println(o.toString());
 	}
