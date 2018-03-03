@@ -1,6 +1,5 @@
 package program;
 
-
 //import java.util.Scanner;
 //import threads.*;
 //import data.*;
@@ -14,7 +13,8 @@ public class Program {
 	public static void main(String[] args) {
 		print("begin");
 		
-		// Change A
+		
+		
 		
 		print("end");
 	}
