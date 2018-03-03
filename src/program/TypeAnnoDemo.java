@@ -3,6 +3,7 @@ package program;
 import java.lang.annotation.*;
 import java.lang.reflect.*;
 
+
 @Target(ElementType.TYPE_USE)
 @interface TypeAnno { }
 
@@ -32,7 +33,6 @@ import java.lang.reflect.*;
 
 class TypeAnnoDemo<@What (description = "Данные обобщенного типа") T> {
 	
-	// Применить типовую аннотацию в конструкторе
 	public @Unique TypeAnnoDemo() { }
 	
 	@TypeAnno String str;
@@ -54,7 +54,7 @@ class TypeAnnoDemo<@What (description = "Данные обобщенного типа") T> {
 		
 	}
 	
-	String @MaxLen(10) [] @NotZeroLen [] w;
+	String @NotZeroLen [] @MaxLen(10) [] w;
 	@TypeAnno int[] vec;
 	
 	public static void myMeth(int i) {

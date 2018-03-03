@@ -1,5 +1,6 @@
 package program;
 
+
 //import java.util.Scanner;
 //import threads.*;
 //import data.*;
@@ -13,7 +14,7 @@ public class Program {
 	public static void main(String[] args) {
 		print("begin");
 		
-		TypeAnnoDemo.myMeth(10);
+		// Change A
 		
 		print("end");
 	}
